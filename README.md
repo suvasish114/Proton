@@ -4,4 +4,4 @@ A simple women safety application for android and ios device. This application i
 
 # Contribution
 
-This application is under development. Any contribution in this application are always welcome.
+This application is under development. Any contribution in this application are always welcome. For contribution guide [click here](./docs/Contribution.md).
