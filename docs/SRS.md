@@ -17,7 +17,7 @@ This application will help any needy person in our society, especially women and
 ## Product features
 This section summarizes the major features that the product contains or significant functions that let the user perform. The main goal of making this application is to make quick responses as needed. To achieve this goal, the app should be less complex, responsible, and fast. The app user interface is divided into two main subordinates. One for the user to send a response, and another is to receive the response. The user can custom all sending data types and messages and can set response methods as well. Users can also customize the response type as 5 times press the power button so that the user can make quick requests to the server. Also, the application can make auto voice calls to notify the authorized contact lists. 
 
-![](./assets/BasicWorkflow.png)
+<img src="./assets/BasicWorkflow.png" width="300px">
 
 ## Assumptions and dependencies	
 The application is fully free to use for everybody and it’s very handy to use anywhere anytime. For full-fledged services from us are some of your mobiles permissions such as:
