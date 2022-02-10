@@ -17,6 +17,8 @@ This application will help any needy person in our society, especially women and
 ## Product features
 This section summarizes the major features that the product contains or significant functions that let the user perform. The main goal of making this application is to make quick responses as needed. To achieve this goal, the app should be less complex, responsible, and fast. The app user interface is divided into two main subordinates. One for the user to send a response, and another is to receive the response. The user can custom all sending data types and messages and can set response methods as well. Users can also customize the response type as 5 times press the power button so that the user can make quick requests to the server. Also, the application can make auto voice calls to notify the authorized contact lists. 
 
+![](./assets/BasicWorkflow.png)
+
 ## Assumptions and dependencies	
 The application is fully free to use for everybody and it’s very handy to use anywhere anytime. For full-fledged services from us are some of your mobiles permissions such as:
 
@@ -75,6 +77,8 @@ Two types of users should be able to use this software. One user should be able 
 - Request, response_info has 1:n relation
 - request , contact_list has 1:n relation
 
+![ER Diagram](./assets/ERDiagram.png)
+
 ## Non-functional Requirements
 As a mobile application, based on the “Android” operating system, the application would use a server. Whenever the sender sends a request, it will reach the receiver through the server. As an emergency application, we’ll have to make sure that the server of this system works in perfect condition 24*7, and because of the nature of the application, the application should have a response time, preferably less than 1 second. By any chance, if the response time exceeds, we need to make sure that the request from the sender reaches the receiver again.
 
@@ -87,6 +91,8 @@ The user interface of this particular mobile application should be very easy to 
 - An internet connection.
 - A central server.
 - A mobile device with the Android operating system.
+
+![](./assets/UserInterface.png)
 
 ## Other Requirements:
 
