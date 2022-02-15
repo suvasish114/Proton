@@ -10,17 +10,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashActivity extends AppCompatActivity {
     @Override
-    public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
-        super.onCreate(savedInstanceState, persistentState);
-        setContentView(R.layout.activity_splash);   // set view method for this class
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_splash);
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
                 startActivity(new Intent(SplashActivity.this, MainActivity.class)); // redirect to the main activity using intent
-                finish();   // finisih this activity
+                finish();
             }
-        }, 5000);   // finish after 1000 millisec
-
+            // wait for 2 seconds and redirect to MainActivity
+        }, 2000);
     }
 }
