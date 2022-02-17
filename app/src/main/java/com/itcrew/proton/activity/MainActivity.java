@@ -1,8 +1,10 @@
-package com.itcrew.proton;
+package com.itcrew.proton.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.itcrew.proton.R;
 
 public class MainActivity extends AppCompatActivity {
 

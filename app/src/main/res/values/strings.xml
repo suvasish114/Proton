@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Proton</string>
+    <string name="app_version">1.0</string>
+    <string name="organization">theITcrew</string>
 </resources>

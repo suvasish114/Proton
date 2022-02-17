@@ -1,12 +1,12 @@
-package com.itcrew.proton;
+package com.itcrew.proton.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.PersistableBundle;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.itcrew.proton.R;
 
 public class SplashActivity extends AppCompatActivity {
     @Override
